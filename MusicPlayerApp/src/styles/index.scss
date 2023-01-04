@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PlayerContainer{
+  background-image: url("https://imgs.search.brave.com/OX-zgFBruD38PdJRxjY7RPhDwl5_4SljFBR1jU0sYAk/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/bWF4LzIwMDAvMSpP/WW1zMVctZEo2WTVQ/OGNlSm1QVlN3QDJ4/LmpwZWc");
+  background-size: cover;
+  float: none;
+  background-repeat: no-repeat;
+  width: 312px;
+  height: 600px;
+  border-radius: 25px;
+  
+}
+.Player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #2b413f;
+  opacity: 90%;
+  
+  padding: 20px;
+  border-radius: 25px;
+}
+.PlayerButtons{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.SongInfo{
+
+  text-align: center;
+  
+}
+.Slider{
+  width: 100%;
+}
+.RangeSlider{
+  width: 100%;
+}
+.SongDurationInfo{
+  display: flex;
+  justify-content: space-between;
+}
+#myRange{
+  accent-color: #268f95;
+}
+#volumeRange{
+  accent-color: #268f95;
+}
+div{
+  color: white
+}
+.volumeControl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.MenuBar{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.SongData{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
